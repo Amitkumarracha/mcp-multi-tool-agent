@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "news": {
+      "command": "python",
+      "args": [
+        "-c",
+        "import sys; sys.path.insert(0, 'REPLACE_WITH_YOUR_PROJECT_PATH/src'); from mcpserver.news import run_server; run_server()"
+      ],
+      "env": {
+        "NEWS_API_KEY": "a46b92cf45594adca2b26ef420f98494"
+      }
+    },
+    "currency": {
+      "command": "python",
+      "args": [
+        "-c",
+        "import sys; sys.path.insert(0, 'REPLACE_WITH_YOUR_PROJECT_PATH/src'); from mcpserver.currency import run_server; run_server()"
+      ],
+      "env": {
+        "CURRENCY_API_KEY": "cur_live_Qg14ytJlW1IQ2bFix8QP6fE40RFQWKi32fTpky6g"
+      }
+    },
+    "math": {
+      "command": "python",
+      "args": [
+        "-c",
+        "import sys; sys.path.insert(0, 'REPLACE_WITH_YOUR_PROJECT_PATH/src'); from mcpserver.math_server import run_server; run_server()"
+      ]
+    }
+  }
+}
