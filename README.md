@@ -293,12 +293,11 @@ MIT License - See LICENSE file for details
 
 ## 🙋 Author
 
-Built for Dassault Systèmes AI/ML Internship application to demonstrate:
+Built to demonstrate:
 - Model Context Protocol (MCP) expertise
 - Agentic AI and multi-agent systems
 - LLM integration and orchestration
 - Production-grade Python development
 
----
 
 **⚡ Built to demonstrate MCP integration as specified in Dassault Systèmes JD**
